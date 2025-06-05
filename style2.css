@@ -1,0 +1,69 @@
+    .container {
+        grid-template-columns: 60% 40%;
+    }
+    .divcontent2{
+        background-color: #F1F4EB;
+    }
+
+    .divcontent2 .text-boxt h1{
+        color: #2C3E50;
+        font-size: 70px;
+        position: relative;
+    }
+    .divcontent2 .text-boxt h1:after{
+        content:'';
+        height: 4px;
+        width: 100%;
+        background-color: #121212;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        border-radius: 5px;
+    }
+    .divcontent1{
+        background-color: #AFCBD6;
+    }
+    .divcontent1 .text-box{
+        position: relative;
+    }
+    .divcontent1 .text-box div{
+        background-color:white;
+        border-radius: 10px;
+        width: 430px;
+        height: 100px;
+        box-shadow: 8px 8px 12px -10px darkblue;
+        padding: 15px;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease;
+    }
+    .divcontent1 .text-box div:hover{
+        transform: translateY(-4px);
+    }
+    .divcontent1 .text-box div p{
+        margin-top: 0px;
+    }
+    .divcontent1 .text-box:before{
+        content:'';
+        height: 4px;
+        width: 250px;
+        position: absolute;
+        top:-30px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white;
+        border-radius: 5px;
+    }
+    .divcontent1 .text-box:after{
+        content:'';
+        height: 4px;
+        width: 250px;
+        position: absolute;
+        bottom:-30px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white;
+        border-radius: 5px;
+    }
+    span {
+        font-weight: bold;
+    }
